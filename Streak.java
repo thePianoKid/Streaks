@@ -10,7 +10,7 @@ public class Streak {
     private int repition;
 
     /**
-     * Streak 
+     * Streak
      * @param name name of the habit
      * @param disc discription the habit
      * @param cycleType one of three options: daily, weekly or monthly
