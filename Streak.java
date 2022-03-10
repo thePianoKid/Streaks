@@ -69,7 +69,7 @@ public class Streak {
     }
 
     public String toString() {
-        String title = "> "+name+": "+streak;
+        String title = name+": "+streak;
         String subTitle1 = "    Discription: "+disc;
 
         String strCycle;
