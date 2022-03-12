@@ -22,3 +22,6 @@ Example output:
 `in <name>` increments the streak by one given the streak name
 
 `report` gives a report on the status of all the streaks
+
+## streaks.txt
+The streaks.txt file stores a compressed version of the all the streaks the user has made. It is not a good practice to edit this file since the program uses this file to read data about the user's streaks. 
