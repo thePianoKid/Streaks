@@ -2,12 +2,15 @@
  * @author Gabriel Braden, Steampunk Robotics
  */
 
+ import java.time.LocalDateTime;
+
 public class Streak {
     private String name;
     private int streak;
     private String disc;
     private CycleType cycleType;
     private int repition;
+    private LocalDateTime resetDateTime;
 
     /**
      * Streak
@@ -22,6 +25,7 @@ public class Streak {
         this.disc = disc;
         this.cycleType = cycleType;
         this.repition = repition;
+        this.resetDateTime = LocalDateTime.now();
     }
 
     public String getName() {
@@ -62,6 +66,7 @@ public class Streak {
 
     public void resetStreak() {
         streak = 0;
+        resetDateTime = LocalDateTime.now();
     }
 
     public int getStreak() {
